@@ -1,0 +1,2 @@
+//CLASE DEL 25-04-22 A LA 1,46
+console.log('HOLA DESDE INDEX2');

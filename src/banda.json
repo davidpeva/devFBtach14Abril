@@ -1,0 +1,22 @@
+{
+	"bandas": {
+		"banda1": {
+			"banda": "blink 182",
+			"genero": "punk rock",
+			"integrantes": "3",
+			"nacionalidad": "estados unidos"
+		},
+		"banda2": {
+			"banda": "queen",
+			"genero": "rock",
+			"integrantes": "4",
+			"nacionalidad": "reino Unido"
+		},
+		"banda3": {
+			"banda": "rammstein",
+			"genero": "metal",
+			"integrantes": "6",
+			"nacionalidad": "alemania"
+		}
+	}
+}

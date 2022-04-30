@@ -1,5 +1,7 @@
 {
-    "name" : "Tesla",
-    "model" : "S",
-    "year" : "2022"
+    "data" : {
+        "name" : "Tesla",
+        "model" : "S",
+        "year" : "2022"
+    }
 }

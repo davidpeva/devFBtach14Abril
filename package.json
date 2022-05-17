@@ -5,7 +5,13 @@
   "main": "index2.js",
   "scripts": {
     "suma": "node ./src/index.js",
-    "bandas": "node ./src/banda.json"
+    "bandas": "node ./src/banda.json",
+    "callback": "node ./src/callback/callBack2.js",
+    "retoCall": "node ./src/callback/retoCallBack.js",
+    "nodemon": "nodemon ./src/promesas/promesasAxios.js",
+    "express": "nodemon ./src/express/index.js",
+    "json" : "json-server ./src/ajax/promises/data.json",
+    "crud-1" : "json-server ./src/crud-1/data.json"
   },
   "repository": {
     "type": "git",
@@ -23,7 +29,10 @@
   },
   "homepage": "https://github.com/davidpeva/devFBtach14Abril#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
     "json-server": "^0.17.0",
+    "nodemon": "^2.0.16",
     "xmlhttprequest": "^1.8.0"
   }
 }

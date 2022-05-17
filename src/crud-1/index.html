@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- APLICAION DE LISTA DE TAREAS ES EL EJEMPLO -->
+    <!--data- me dejaponerle datos q desee despues del - pongo lo que quiero  -->
+    <!-- con ese id puedo acceder a el desde js y jugar con la logica -->
+    <h1 data-id="8" data-titulo="soy un titulo">To do list</h1>
+
+    <input type="text" id="input-todo" placeholder="Escribre una tarea">
+
+    <button id="btn-add">Add</button>
+    
+    <ul id="content-wrapper">
+        <!-- este lo comente porque desde js cree los botones asi es q se manipula el dom-->
+        <!-- <li>
+            Tarea 1
+                <button id="btn-1">Editar</button>
+                <button id="btn-2">Eliminar</button>
+        </li> -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
